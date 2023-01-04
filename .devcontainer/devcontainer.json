@@ -1,0 +1,12 @@
+{
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "hashicorp.terraform",
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+    ],
+    "mounts": [
+        "source=${localEnv:HOME}/.config/gcloud,target=/root/.config/gcloud,type=bind,consistency=cached"
+    ]
+}

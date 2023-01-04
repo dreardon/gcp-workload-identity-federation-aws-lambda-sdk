@@ -1,0 +1,9 @@
+.DS_Store
+venvs
+policy-document.json
+role.json
+.env
+example-lambda-function/lambda_function.zip
+example-lambda-function/python/
+example-lambda-function/google-cloud-vision.zip
+example-lambda-function/client-config.json
